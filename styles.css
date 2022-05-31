@@ -108,7 +108,6 @@ h2{
 main{
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
 }
 
 #topbar{
@@ -116,7 +115,6 @@ main{
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin-bottom: -5rem;
   /* border-bottom: 0.1875rem solid cadetblue; */
 }
 
