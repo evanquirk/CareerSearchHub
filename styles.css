@@ -109,14 +109,13 @@ h2{
 main{
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
 }
 
 #topbar{
   display: flex;
   justify-content: space-between;
   padding-top: 1.25rem;
-  width:97%;
+  width: 97%;
   background-color: white;
   /* border-bottom: 0.1875rem solid cadetblue; */
   opacity: 0.95;
