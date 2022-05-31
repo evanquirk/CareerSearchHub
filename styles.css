@@ -81,7 +81,6 @@ h1{
   font-family: 'Anton', sans-serif;
 /* //   text-transform: uppercase; */
   color: #ffffff;
-  padding-top: 1.25rem;
   font-size: 3.125rem;
   letter-spacing: 0.0938rem;
 }
@@ -109,6 +108,7 @@ h2{
 main{
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 }
 
 #topbar{
@@ -118,7 +118,7 @@ main{
   width: 97%;
   background-color: white;
   /* border-bottom: 0.1875rem solid cadetblue; */
-  opacity: 0.95;
+  /* opacity: 0.95; */
 }
 
 #title{
