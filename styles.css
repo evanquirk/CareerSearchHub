@@ -113,15 +113,20 @@ main{
 #topbar{
   display: flex;
   justify-content: space-between;
-  padding-top: 1.25rem;
+  align-items: center;
   width: 97%;
   background-color: white;
   /* border-bottom: 0.1875rem solid cadetblue; */
-  /* opacity: 0.95; */
 }
 
 #title{
-  color: black;
+  display: flex;
+  align-items: center;
+  color: #292B37;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.0938rem;
+  font-size: 2rem;
 }
 
 .button1{
