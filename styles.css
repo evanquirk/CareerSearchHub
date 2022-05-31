@@ -49,6 +49,7 @@ body{
   text-align: center;
   font-size: 2.5rem;
   padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 .white{
@@ -112,10 +113,10 @@ main{
 
 #topbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 97%;
   background-color: white;
+  margin-bottom: -5rem;
   /* border-bottom: 0.1875rem solid cadetblue; */
 }
 
