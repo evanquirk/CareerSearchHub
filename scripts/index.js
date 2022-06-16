@@ -7,10 +7,12 @@ function load() {
   $('.resume').hide()
   $('.boards').hide()
 
+  // Return to Login Page
   $('.gohome').on('click', function () {
     location.reload();
   })
 
+  // Return to Home Page
   $('.Home').on('click', function () {
     $('.application').hide()
     $('.github').hide()
