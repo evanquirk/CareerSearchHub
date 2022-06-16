@@ -1,6 +1,12 @@
-.sticky-sidebar {
+.get-started-sticky-sidebar {
   position: sticky;
-  top: 8rem;
+  top: 7rem;
+}
+
+.docs-sticky-sidebar {
+  position: sticky;
+  top: 7rem;
+  /* margin-bottom: -100vh; */
 }
 
 a.nav-link {
