@@ -26,9 +26,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .clear {
-    height: 60rem;
-  }
+
 }
 
 @media only screen and (max-width: 380px) {
@@ -36,10 +34,6 @@
     overflow-y: scroll;
     height: 100vh;
     margin-top: 1rem;
-  }
-
-  .clear {
-    height: 10rem;
   }
 
   .fa-stack.fa-2x {

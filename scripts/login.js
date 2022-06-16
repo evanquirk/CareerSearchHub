@@ -7,7 +7,7 @@ $(document).ready(function () {
   $('header').empty();
   $('main').empty();
   $('footer').empty();
-  $('.clear').hide();
+
   $('#login-button').click(() => {
     let password = $('#password').val()
     if (password === 'LHLCS') {
@@ -18,7 +18,7 @@ $(document).ready(function () {
         $('main').html(mainContent);
         $('header').html(nav);
         $('footer').html(footer);
-        $('.clear').show();
+        
         load()
       }, 400)
     } else {
