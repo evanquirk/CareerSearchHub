@@ -261,10 +261,9 @@
       <div class="container-fluid">
         <div class="row flex-nowrap">
           <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
-            <div class="docs-sticky-sidebar d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-              <ul
-                class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
-                id="menu">
+            <div
+              class="docs-sticky-sidebar d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                 <li>
                   <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
                     <i class="fa-solid fa-file-circle-check fa-xl"></i> <span
@@ -283,7 +282,8 @@
                 </li>
                 <li>
                   <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                    <i class="fa-solid fa-folder-open fa-xl"></i> <span class="ms-1 d-none d-sm-inline">Portfolio</span></a>
+                    <i class="fa-solid fa-folder-open fa-xl"></i> <span
+                      class="ms-1 d-none d-sm-inline">Portfolio</span></a>
                   <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
                     <li class="w-100">
                       <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Web </a>
@@ -297,9 +297,16 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fa-solid fa-book-bookmark fa-xl"></i>
-                    <span class="ms-1 d-none d-sm-inline">Resources</span></a>
+                  <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-envelope-open-text fa-xl"></i> <span class="ms-1 d-none d-sm-inline">Cover Letter</span> </a>
+                  <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                    <li class="w-100">
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Tips </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Samples </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
               <hr>
@@ -307,13 +314,14 @@
           </div>
 
           <!-- CONTENT -->
-          <article class="col px-4">
+          <article class="col clear px-4">
             <h2>
               <div class="border-bottom">
                 <i class="icon-attr fa-solid fa-file"></i>
                 Documents
               </div>
             </h2>
+            
             <h6 class="text-center mb-3">
               Make your first impression count!
             </h6>
@@ -411,11 +419,10 @@
             </div>
 
             <div>
-
               <h4>
                 Web Development Portfolios
               </h4>
-              <div class="ps-3">
+              <div>
                 <ul>
                   <li>
                     <a href="https://www.joshwcomeau.com/effective-portfolio/download-book/" target="_blank">Building
@@ -441,16 +448,10 @@
                 </ul>
               </div>
 
-              <div class="d-flex data-heading">
-                <h4 class="pointer d-flex ps-1 pe-1">
-                  Data Science Portfolios
-                </h4>
-                <div class="ms-1">
-                  <i class="fa-solid fa-circle-chevron-down"></i>
-                </div>
-              </div>
-
-              <div id="data-portfolio" class="ps-3">
+              <h4>
+                Data Science Portfolios
+              </h4>
+              <div>
                 <ul>
                   <li>
                     <a href="https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c"
@@ -463,16 +464,10 @@
                 </ul>
               </div>
 
-              <div class="d-flex cyber-heading">
-                <h4 class="pointer d-flex ps-1 pe-1">
-                  Cyber Portfolios
-                </h4>
-                <div class="ms-1">
-                  <i class="fa-solid fa-circle-chevron-down"></i>
-                </div>
-              </div>
-
-              <div id="cyber-portfolio" class="ps-3">
+              <h4>
+                Cyber Portfolios
+              </h4>
+              <div>
                 <ul>
                   <li>
                     <a href="https://www.youtube.com/watch?v=36hbC-4Aoss" target="_blank">How to create a cyber
@@ -484,92 +479,83 @@
                   </li>
                 </ul>
               </div>
-
             </div>
 
-            <div class="d-flex coverletterheading">
-              <h4 class='pointer d-flex ps-1 pe-1'>
-                Write the Right Cover Letter
-              </h4>
-              <div class="ms-1">
-                <i class="fa-solid fa-circle-chevron-down"></i>
-              </div>
+
+            <h4>
+              Write the Right Cover Letter
+            </h4>
+            <div>
+              <b>
+                Good practices to follow:
+              </b>
+              <ul>
+                <li>
+                  Tailored to the position and company: use key words from the job description
+                </li>
+                <li>
+                  Keep it Concise
+                </li>
+                <li>
+                  Max 3 paragraphs: Why you are great, why the company is great, why you would be great together
+                </li>
+                <li>
+                  Start and end strong! Say you are excited to be applying for the position and end off saying you
+                  look forward to hearing from them
+                </li>
+                <li>
+                  Grammatical error free
+                </li>
+              </ul>
             </div>
 
-            <div id="coverletter">
-              <div>
-                <b>
-                  Good practices to follow:
-                </b>
-                <ul>
-                  <li>
-                    Tailored to the position and company: use key words from the job description
-                  </li>
-                  <li>
-                    Keep it Concise
-                  </li>
-                  <li>
-                    Max 3 paragraphs: Why you are great, why the company is great, why you would be great together
-                  </li>
-                  <li>
-                    Start and end strong! Say you are excited to be applying for the position and end off saying you
-                    look forward to hearing from them
-                  </li>
-                  <li>
-                    Grammatical error free
-                  </li>
-                </ul>
-              </div>
+            <div>
+              <b>Cover Letter Samples</b>
+              <ul>
+                <li>
+                  <a href="https://careerservices.pace.edu//sites/default/files/files/pdf/insider-guide-to-startup-cover-letters.pdf"
+                    target="_blank">Insider Guide to Cover letters</a>
+                </li>
 
-              <div class="border-top">
+                <li>
+                  <a href="https://zety.com/blog/data-analyst-cover-letter-example" target="_blank">Data Analyst
+                    Cover Letter Sample</a>
+                </li>
 
-                <ul class="mt-2">
-                  <li>
-                    <a href="https://careerservices.pace.edu//sites/default/files/files/pdf/insider-guide-to-startup-cover-letters.pdf"
-                      target="_blank">Insider Guide to Cover letters</a>
-                  </li>
+                <li>
+                  <a href="https://zety.com/blog/cyber-security-cover-letter-example" target="_blank">Cybersecurity
+                    Cover Letter Sample</a>
+                </li>
 
-                  <li>
-                    <a href="https://zety.com/blog/data-analyst-cover-letter-example" target="_blank">Data Analyst
-                      Cover Letter Sample</a>
-                  </li>
+                <li>
+                  <a href="https://www.quora.com/What-are-some-examples-of-a-good-cover-letter-when-applying-to-startups"
+                    target="_blank">Quora - Cover Letters for Startups (Some good general tips)</a>
+                </li>
 
-                  <li>
-                    <a href="https://zety.com/blog/cyber-security-cover-letter-example" target="_blank">Cybersecurity
-                      Cover Letter Sample</a>
-                  </li>
+                <li>
+                  <a href="https://blog.hubspot.com/marketing/how-to-write-cover-letter-template#sm.001e55k1g13jqdcetgc2le94geb5g"
+                    target="_blank">Hubspot - How to Write a Cover Letter That Gets You the Job [Template +
+                    Examples]
+                  </a>
+                </li>
 
-                  <li>
-                    <a href="https://www.quora.com/What-are-some-examples-of-a-good-cover-letter-when-applying-to-startups"
-                      target="_blank">Quora - Cover Letters for Startups (Some good general tips)</a>
-                  </li>
+                <li>
+                  <a href="https://skillcrush.com/2016/08/15/perfect-cover-email/">Skillcrush - How to Write a Cover
+                    Letter That Will Get You Hired</a>
+                </li>
 
-                  <li>
-                    <a href="https://blog.hubspot.com/marketing/how-to-write-cover-letter-template#sm.001e55k1g13jqdcetgc2le94geb5g"
-                      target="_blank">Hubspot - How to Write a Cover Letter That Gets You the Job [Template +
-                      Examples]
-                    </a>
-                  </li>
+                <li>
+                  <a href="https://skillcrush.com/2015/08/06/ultimate-guide-perfect-email-cover-letter/"
+                    target="_blank">Skillcrush - Ultimate Guide to the Perfect Email Cover Letter</a>
+                </li>
 
-                  <li>
-                    <a href="https://skillcrush.com/2016/08/15/perfect-cover-email/">Skillcrush - How to Write a Cover
-                      Letter That Will Get You Hired</a>
-                  </li>
-
-                  <li>
-                    <a href="https://skillcrush.com/2015/08/06/ultimate-guide-perfect-email-cover-letter/"
-                      target="_blank">Skillcrush - Ultimate Guide to the Perfect Email Cover Letter</a>
-                  </li>
-
-                  <li>
-                    <a href="https://skillcrush.com/2016/03/03/10-cover-letter-mistakes/" target="_blank">Skillcrush -
-                      10 Things You Should NEVER Do In Your Cover Letter</a>
-                  </li>
-                </ul>
-
-              </div>
-
+                <li>
+                  <a href="https://skillcrush.com/2016/03/03/10-cover-letter-mistakes/" target="_blank">Skillcrush -
+                    10 Things You Should NEVER Do In Your Cover Letter</a>
+                </li>
+              </ul>
             </div>
+
           </article>
         </div>
       </div>

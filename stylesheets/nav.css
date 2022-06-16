@@ -6,7 +6,7 @@
 .docs-sticky-sidebar {
   position: sticky;
   top: 7rem;
-  /* margin-bottom: -100vh; */
+  margin-bottom: -100vh;
 }
 
 a.nav-link {
