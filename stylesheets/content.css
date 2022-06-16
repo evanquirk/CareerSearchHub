@@ -73,19 +73,4 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .right-content-col {
-    border-left: 0;
-    height: 0 !important;
-    min-height: 0;
-  }
-  
-  .left-content-col {
-    border-right: 0;
-    height: 0 !important;
-    min-height: 0;
-  }
-  .content-adjustment {
-    margin-bottom: 10rem;
-  }
-
 }
