@@ -4,9 +4,10 @@ $(document).ready(function () {
   let footer = $('footer').html()
   $('body').css('background-image', 'url("../images/work-space.webp")');
   $('body').css('height', 'auto');
-  $('header').empty()
-  $('main').empty()
-  $('footer').empty()
+  $('header').empty();
+  $('main').empty();
+  $('footer').empty();
+  $('.clear').css("display", "none");
   $('#login-button').click(() => {
     let password = $('#password').val()
     if (password === 'LHLCS') {
