@@ -85,62 +85,6 @@ function load() {
     $('.Category-card').hide()
   })
 
-  $('.resumeheading').on('click', function () {
-    if ($('#resume').css('display') !== 'none')
-      $('#resume').slideUp()
-    else {
-      $('#resume').slideDown()
-    }
-  })
-
-  $('.portfoliosheading').on('click', function () {
-    if ($('#portfolio').css('display') !== 'none')
-      $('#portfolio').slideUp()
-    else {
-      $('#portfolio').slideDown()
-    }
-  })
-
-  $('.web-heading').on('click', function () {
-    if ($('#web-portfolio').css('display') !== 'none')
-      $('#web-portfolio').slideUp()
-    else {
-      $('#web-portfolio').slideDown()
-    }
-  })
-
-  $('.data-heading').on('click', function () {
-    if ($('#data-portfolio').css('display') !== 'none')
-      $('#data-portfolio').slideUp()
-    else {
-      $('#data-portfolio').slideDown()
-    }
-  })
-
-  $('.cyber-heading').on('click', function () {
-    if ($('#cyber-portfolio').css('display') !== 'none')
-      $('#cyber-portfolio').slideUp()
-    else {
-      $('#cyber-portfolio').slideDown()
-    }
-  })
-
-  $('.coverletterheading').on('click', function () {
-    if ($('#coverletter').css('display') !== 'none')
-      $('#coverletter').slideUp()
-    else {
-      $('#coverletter').slideDown()
-    }
-  })
-
-  $('.jobboardheading').on('click', function () {
-    if ($('#jobboard').css('display') !== 'none')
-      $('#jobboard').slideUp()
-    else {
-      $('#jobboard').slideDown()
-    }
-  })
-
   $('.prepheading').on('click', function () {
     if ($('#prep').css('display') !== 'none')
       $('#prep').slideUp()
