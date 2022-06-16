@@ -7,17 +7,18 @@ $(document).ready(function () {
   $('header').empty();
   $('main').empty();
   $('footer').empty();
-  $('.clear').css("display", "none");
+  $('.clear').hide();
   $('#login-button').click(() => {
     let password = $('#password').val()
     if (password === 'LHLCS') {
       setTimeout(() => {
         console.log(password)
         $('body').css('background-image', 'none');
-        $('#login-form').hide()
-        $('main').html(mainContent)
-        $('header').html(nav)
-        $('footer').html(footer)
+        $('#login-form').hide();
+        $('main').html(mainContent);
+        $('header').html(nav);
+        $('footer').html(footer);
+        $('.clear').show();
         load()
       }, 400)
     } else {
