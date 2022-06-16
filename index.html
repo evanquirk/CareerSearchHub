@@ -184,7 +184,7 @@
           <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
               <ul
-                class="sticky-sidebar nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                class="get-started-sticky-sidebar nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
                 id="menu">
                 <li class="nav-item">
                   <a href="#strategy-todo-content" class="nav-link align-middle px-0">
@@ -261,13 +261,14 @@
       <div class="container-fluid">
         <div class="row flex-nowrap">
           <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+            <div class="docs-sticky-sidebar d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
               <ul
-                class="sticky-sidebar nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
                 id="menu">
                 <li>
                   <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                    <i class="fa-solid fa-file-circle-check fa-xl"></i> <span class="ms-1 d-none d-sm-inline">Resume</span></a>
+                    <i class="fa-solid fa-file-circle-check fa-xl"></i> <span
+                      class="ms-1 d-none d-sm-inline">Resume</span></a>
                   <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                     <li class="w-100">
                       <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Tools </a>
@@ -280,11 +281,20 @@
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link align-middle px-0">
-                    <i class="fa-regular fa-square-check fa-xl"></i>
-                    <span class="ms-1 d-none d-sm-inline">Job Search</span>
-                  </a>
+                <li>
+                  <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-folder-open fa-xl"></i> <span class="ms-1 d-none d-sm-inline">Portfolio</span></a>
+                  <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                    <li class="w-100">
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Web </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Data </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Cyber </a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a href="#" class="nav-link px-0 align-middle">
@@ -400,96 +410,81 @@
               </ul>
             </div>
 
+            <div>
 
-
-
-            <h4>
-              Portfolio Building
-            </h4>
-
-            <div id="portfolio">
-              <div>
-
-                <div class="d-flex web-heading">
-                  <h4 class="pointer d-flex ps-1 pe-1">
-                    Web Development
-                  </h4>
-                  <div class="ms-1">
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                  </div>
-                </div>
-
-                <div id="web-portfolio" class="ps-3">
-                  <ul>
-                    <li>
-                      <a href="https://www.joshwcomeau.com/effective-portfolio/download-book/" target="_blank">Building
-                        a
-                        Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="https://www.waveapps.com/freelancing/web-development/full-stack-web-developer-portfolio"
-                        target="_blank">Build the perfect full stack web dev portfolio</a>
-                    </li>
-                    <li>
-                      <a href="https://betterprogramming.pub/14-best-web-developer-portfolios-to-get-inspiration-8fbce0f75320"
-                        target="_blank">14 Best Web Developer Portfolios To Get Inspiration</a>
-                    </li>
-                    <li>
-                      <a href="https://alvarotrigo.com/blog/web-developer-portfolio-examples/" target="_blank">20
-                        Examples of Web Developers Portfolios for Inspiration</a>
-                    </li>
-                    <li>
-                      <a href="https://www.quora.com/What-does-a-good-junior-backend-developer-portfolio-website-look-like"
-                        target="_blank">What does a good junior back-end developer portfolio site look like?</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="d-flex data-heading">
-                  <h4 class="pointer d-flex ps-1 pe-1">
-                    Data Science
-                  </h4>
-                  <div class="ms-1">
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                  </div>
-                </div>
-
-                <div id="data-portfolio" class="ps-3">
-                  <ul>
-                    <li>
-                      <a href="https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c"
-                        target="_blank">How to build a Data Science Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/"
-                        target="_blank">9 of the Best Data Analytics Portfolios on the Web</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="d-flex cyber-heading">
-                  <h4 class="pointer d-flex ps-1 pe-1">
-                    Cyber
-                  </h4>
-                  <div class="ms-1">
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                  </div>
-                </div>
-
-                <div id="cyber-portfolio" class="ps-3">
-                  <ul>
-                    <li>
-                      <a href="https://www.youtube.com/watch?v=36hbC-4Aoss" target="_blank">How to create a cyber
-                        security portfolio</a>
-                    </li>
-                    <li>
-                      <a href="https://careerkarma.com/blog/cyber-security-projects/" target="_blank">Top Cyber
-                        Security Projects to Sharpen Your Skills and Build Your Cyber Security Portfolio</a>
-                    </li>
-                  </ul>
-                </div>
-
+              <h4>
+                Web Development Portfolios
+              </h4>
+              <div class="ps-3">
+                <ul>
+                  <li>
+                    <a href="https://www.joshwcomeau.com/effective-portfolio/download-book/" target="_blank">Building
+                      a
+                      Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="https://www.waveapps.com/freelancing/web-development/full-stack-web-developer-portfolio"
+                      target="_blank">Build the perfect full stack web dev portfolio</a>
+                  </li>
+                  <li>
+                    <a href="https://betterprogramming.pub/14-best-web-developer-portfolios-to-get-inspiration-8fbce0f75320"
+                      target="_blank">14 Best Web Developer Portfolios To Get Inspiration</a>
+                  </li>
+                  <li>
+                    <a href="https://alvarotrigo.com/blog/web-developer-portfolio-examples/" target="_blank">20
+                      Examples of Web Developers Portfolios for Inspiration</a>
+                  </li>
+                  <li>
+                    <a href="https://www.quora.com/What-does-a-good-junior-backend-developer-portfolio-website-look-like"
+                      target="_blank">What does a good junior back-end developer portfolio site look like?</a>
+                  </li>
+                </ul>
               </div>
+
+              <div class="d-flex data-heading">
+                <h4 class="pointer d-flex ps-1 pe-1">
+                  Data Science Portfolios
+                </h4>
+                <div class="ms-1">
+                  <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+              </div>
+
+              <div id="data-portfolio" class="ps-3">
+                <ul>
+                  <li>
+                    <a href="https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c"
+                      target="_blank">How to build a Data Science Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/"
+                      target="_blank">9 of the Best Data Analytics Portfolios on the Web</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="d-flex cyber-heading">
+                <h4 class="pointer d-flex ps-1 pe-1">
+                  Cyber Portfolios
+                </h4>
+                <div class="ms-1">
+                  <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+              </div>
+
+              <div id="cyber-portfolio" class="ps-3">
+                <ul>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=36hbC-4Aoss" target="_blank">How to create a cyber
+                      security portfolio</a>
+                  </li>
+                  <li>
+                    <a href="https://careerkarma.com/blog/cyber-security-projects/" target="_blank">Top Cyber
+                      Security Projects to Sharpen Your Skills and Build Your Cyber Security Portfolio</a>
+                  </li>
+                </ul>
+              </div>
+
             </div>
 
             <div class="d-flex coverletterheading">
