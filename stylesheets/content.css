@@ -31,9 +31,9 @@
   background-color: #F5F5F5;
 }
 
-#resume, #portfolio, #web-portfolio, #data-portfolio, #cyber-portfolio, #coverletter, #jobboard, #prep, #culturefit,
-#techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal {
-    display: none;
+#prep, #culturefit, #techinterview, #followup, #vancouver, 
+#toronto, #victoria, #calgary, #montreal {
+  display: none;
 }
 
 #resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit, #techinterview, #followup{
@@ -66,11 +66,6 @@
 
 .pointer {
   cursor: pointer;
-}
-
-#resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
-#techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal{
-    display: none;
 }
 
 @media only screen and (max-width: 1000px) {
