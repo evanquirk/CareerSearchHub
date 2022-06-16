@@ -35,28 +35,6 @@
   margin-left: 1.25rem;
   margin-bottom: 1.25rem;
 }
- 
-/* #stretch {
-  display: inline-block;
-  align-items: left;
-  font-size: 1.25rem;
-  opacity: 0.25;
-  transform: scaleX(2);
-  padding-left: 0.3125rem;
-} */
-
-/* #underline{
-  border-bottom: 0.1875rem solid CadetBlue;
-  color: cadetblue;
-  background-color: CadetBlue;
-  padding-left: 0.1875rem;
-  padding-right: 0.3125rem;
-} */
-
-/* .underline{
-  display: flex;
-  flex-direction: row;
-} */
 
 .resume {
   display: flex;
