@@ -258,14 +258,43 @@
 
     <!-- (DOCS) APPLICATION SECTION -->
     <section class="application content-position">
-      <div class="container">
-        <div class="row">
-          <div class="left-content-col bg-light col-sm-1">
-            <!-- Left Col -->
+      <div class="container-fluid">
+        <div class="row flex-nowrap">
+          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+              <ul
+                class="sticky-sidebar nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                id="menu">
+                <li>
+                  <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                  <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                    <li class="w-100">
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link align-middle px-0">
+                    <i class="fa-regular fa-square-check fa-xl"></i>
+                    <span class="ms-1 d-none d-sm-inline">Job Search</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-book-bookmark fa-xl"></i>
+                    <span class="ms-1 d-none d-sm-inline">Resources</span></a>
+                </li>
+              </ul>
+              <hr>
+            </div>
           </div>
 
-          <article class="col-lg content-adjustment">
-
+          <!-- CONTENT -->
+          <article class="col px-4">
             <h2>
               <div class="border-bottom">
                 <i class="icon-attr fa-solid fa-file"></i>
@@ -394,45 +423,6 @@
                     </ul>
                   </div>
                 </div>
-
-
-                <div id='resume3'>
-                  <h5 class='resumeios'>
-                    iOS Resume Tips
-                  </h5>
-                  <p>
-                  <ul>
-                    <li>For the apps that you want to showcase on GitHub, add a Readme.md that includes
-                      video/gif/images by adding ![Title](videoname.jpg) in the .md file. Employers care a lot if
-                      you’ve successfully put something on the App Store, so while you’re working on that, get it on
-                      Testflight!
-                      <a href="https://www.resume.com/lighthouselabs" target="_blank">Example Here</a>
-                    </li>
-                    <li>
-                      Add a bullet about deploying your app on the app store to the project description. Employers
-                      like that.
-                    </li>
-                    <li>
-                      A <a
-                        href="http://ioshacker.com/how-to/use-quicktime-record-screen-iphone-ipad-ipod-touch-running-ios-8"
-                        target="_blank">good tutorial</a> on how to record videos for you apps
-                    </li>
-                    <li>
-                      <a href="https://developer.apple.com/testflight/" target="_blank">TestFlight Beta Testing</a>
-                      makes it easy to invite users to test your iOS, watchOS, and tvOS apps before you release them
-                      on the
-                      App Store. You can invite up to 2,000 testers using just their email address to showcase your
-                      iOS apps!
-                    </li>
-                    <li>
-                      <a href="https://theapplaunchpad.com/" target="_blank">AppLaunchPad</a>
-                      - Create beautiful
-                      customized screenshots for your App store & Google play pages. They have 3 free templates.
-                    </li>
-                    </p>
-                  </ul>
-                  </p>
-                </div>
               </div>
 
               <div class="d-flex portfoliosheading">
@@ -447,15 +437,6 @@
               <div id="portfolio">
                 <div>
 
-                  <!-- Removed By Request -->
-                  <!-- <a href="https://pages.github.com/" target="_blank">Github.io Pages</a><br>
-                  Build a portfolio page and link it on your resume. It’s free, links directly with your github account,
-                  and
-                  an attractive way to build a “portfolio website.” <br>
-                  <a href="https://https://jekyllthemes.io/" target="_blank">Jekyll Themes</a><br>
-                  Go right to the free ones, there’s a plethora to choose from that look great for a portfolio website.
-                  <br><br> -->
-
                   <div class="d-flex web-heading">
                     <h5 class="pointer d-flex ps-1 pe-1">
                       Web Development
@@ -469,7 +450,8 @@
                     <ul>
                       <li>
                         <a href="https://www.joshwcomeau.com/effective-portfolio/download-book/"
-                          target="_blank">Building a Portfolio</a>
+                          target="_blank">Building a
+                          Portfolio</a>
                       </li>
                       <li>
                         <a href="https://www.waveapps.com/freelancing/web-development/full-stack-web-developer-portfolio"
@@ -486,8 +468,6 @@
                       <li>
                         <a href="https://www.quora.com/What-does-a-good-junior-backend-developer-portfolio-website-look-like"
                           target="_blank">What does a good junior back-end developer portfolio site look like?</a>
-                        <!-- The (semi) opposite is true for a front-end developer. Customized, sleek, functional, great
-                        UI/UX. Cool features for SPA on the front-end side is a plus. -->
                       </li>
                     </ul>
                   </div>
@@ -621,15 +601,10 @@
 
                 </div>
 
-
-
               </div>
             </div>
 
           </article>
-          <div class="right-content-col bg-light col-sm-1">
-            <!-- Right Col -->
-          </div>
         </div>
       </div>
     </section>
