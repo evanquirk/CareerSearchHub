@@ -1,9 +1,9 @@
-.get-started-sticky-sidebar {
+.sticky-sidebar-short {
   position: sticky;
   top: 7rem;
 }
 
-.docs-sticky-sidebar, .job-board-sticky-sidebar {
+.sticky-sidebar-long { 
   position: sticky;
   top: 7rem;
   margin-bottom: -100vh;
