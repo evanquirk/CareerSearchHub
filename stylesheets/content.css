@@ -14,48 +14,9 @@
   margin-bottom: 10rem;
 }
 
-/* BELOW TO BE REMOVE POST TRANSITIONS */
-
-.content-adjustment {
-  margin-bottom: 10rem;
-}
-
-.right-content-col {
-  border-left: #e6e6e6 0.15rem solid;
-  height: auto;
-  min-height: 100vh;
-}
-
-.left-content-col {
-  border-right: #e6e6e6 0.15rem solid;
-  height: auto;
-  min-height: 100vh;
-}
-
-/* ABOVE TO BE REMOVED POST TRANSITIONS */
-
 #vancouver, #toronto, #victoria, #calgary, #montreal{
   padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
   background-color: #F5F5F5;
-}
-
-#prep, #culturefit, #techinterview, #followup, #vancouver, 
-#toronto, #victoria, #calgary, #montreal {
-  display: none;
-}
-
-#resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit, #techinterview, #followup{
-  /* background-color: #f6fbfc; */
-  border-left: 0.125rem solid CadetBlue;
-  padding-left: 1.25rem;
-  margin-left: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.resume {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .networkingbuttons {

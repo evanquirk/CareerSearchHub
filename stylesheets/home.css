@@ -15,12 +15,10 @@
   margin: 0.5rem;
   font-weight: bold !important;
   letter-spacing: 0.125rem;
-  /* color: #6BBAEC !important; */
   color: #17A3DD !important; 
 }
 
 .icon-attr {
-  /* color: #6BBAEC; */
   color: #17A3DD;
   margin-bottom: 1rem;
 }
