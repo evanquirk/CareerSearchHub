@@ -34,6 +34,11 @@ div {
   font-weight: 400
 }
 
+ul {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     margin-top: 5rem !important;
