@@ -18,6 +18,10 @@
   color: #17A3DD !important; 
 }
 
+.card:hover {
+  color: white !important;
+}
+
 .icon-attr {
   color: #17A3DD;
   margin-bottom: 1rem;
