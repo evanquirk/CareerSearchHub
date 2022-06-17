@@ -1,24 +1,37 @@
+/* Fonts */
+/* font-family: 'Lato', sans-serif; 100, 300, 400 */
+/* font-family: 'Raleway', sans-serif; 400, 500, 700 */
+
 body {
   overflow-x: hidden;
   margin-top: 7rem !important;
 }
 
 h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.1rem;
 }
 
 h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   text-align: center;
   padding-top: 3.10rem;
   letter-spacing: 0.1rem;
 }
 
 h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+div {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400
 }
 
 @media only screen and (max-width: 600px) {
