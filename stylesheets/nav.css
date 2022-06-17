@@ -3,7 +3,7 @@
   top: 7rem;
 }
 
-.docs-sticky-sidebar {
+.docs-sticky-sidebar, .job-board-sticky-sidebar {
   position: sticky;
   top: 7rem;
   margin-bottom: -100vh;
