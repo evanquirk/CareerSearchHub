@@ -1,4 +1,6 @@
-#strategy-todo-content, #strategy-resource-content {
+#strategy-todo-content, #strategy-resource-content, 
+#docs-resume-tool-content, #docs-resume-tips-content, #docs-resume-resource-content
+{
   scroll-margin-top: 5rem;
 }
 
