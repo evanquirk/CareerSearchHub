@@ -6,6 +6,7 @@ function load() {
   $('.strategy').hide()
   $('.resume').hide()
   $('.boards').hide()
+  $('.video').hide()
 
   // Return to Login Page
   $('.gohome').on('click', function () {
@@ -20,6 +21,7 @@ function load() {
     $('.strategy').hide()
     $('.networking').hide()
     $('.boards').hide()
+    $('.video').hide()
     $('.Category-card').slideDown()
   })
 
@@ -31,6 +33,7 @@ function load() {
     $('.strategy').slideDown()
     $('.networking').hide()
     $('.boards').hide()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 
@@ -42,6 +45,7 @@ function load() {
     $('.strategy').hide()
     $('.application').slideDown()
     $('.boards').hide()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 
@@ -52,6 +56,7 @@ function load() {
     $('.strategy').hide()
     $('.boards').slideDown()
     $('.application').hide()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 
@@ -62,6 +67,7 @@ function load() {
     $('.strategy').hide()
     $('.github').slideDown()
     $('.boards').hide()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 
@@ -72,6 +78,7 @@ function load() {
     $('.strategy').hide()
     $('.interviewskills').slideDown()
     $('.boards').hide()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 
@@ -82,18 +89,18 @@ function load() {
     $('.strategy').hide()
     $('.networking').slideDown()
     $('.boards').hide()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 
-  // --- No Implementation
-  // $('.Videos').on('click', function () {
-  //   $('.application').hide()
-  //   $('.github').hide()
-  //   $('.interviewskills').hide()
-  //   $('.strategy').hide()
-  //   $('.networking').hide()
-  //   $('.boards').hide()
-  //   $('.Category-card').hide()
-  // })
-
+  $('.Videos').on('click', function () {
+    $('.application').hide()
+    $('.github').hide()
+    $('.interviewskills').hide()
+    $('.strategy').hide()
+    $('.networking').hide()
+    $('.boards').hide()
+    $('.video').show()
+    $('.Category-card').hide()
+  })
 }
