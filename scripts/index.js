@@ -85,95 +85,15 @@ function load() {
     $('.Category-card').hide()
   })
 
-  $('.prepheading').on('click', function () {
-    if ($('#prep').css('display') !== 'none')
-      $('#prep').slideUp()
-    else {
-      $('#prep').slideDown()
-    }
-  })
+  // --- No Implementation
+  // $('.Videos').on('click', function () {
+  //   $('.application').hide()
+  //   $('.github').hide()
+  //   $('.interviewskills').hide()
+  //   $('.strategy').hide()
+  //   $('.networking').hide()
+  //   $('.boards').hide()
+  //   $('.Category-card').hide()
+  // })
 
-  $('.culturefitheading').on('click', function () {
-    if ($('#culturefit').css('display') !== 'none')
-      $('#culturefit').slideUp()
-    else {
-      $('#culturefit').slideDown()
-    }
-  })
-
-  $('.techinterviewheading').on('click', function () {
-    if ($('#techinterview').css('display') !== 'none')
-      $('#techinterview').slideUp()
-    else {
-      $('#techinterview').slideDown()
-    }
-  })
-
-  $('.followupheading').on('click', function () {
-    if ($('#followup').css('display') !== 'none')
-      $('#followup').slideUp()
-    else {
-      $('#followup').slideDown()
-    }
-  })
-
-  $('.vancouver').on('click', function () {
-    if ($('#vancouver').css('display') !== 'none')
-      $('#vancouver').slideUp()
-    else {
-      $('#vancouver').slideDown()
-      $('#toronto').hide()
-      $('#victoria').hide()
-      $('#calgary').hide()
-      $('#montreal').hide()
-    }
-  })
-
-  $('.toronto').on('click', function () {
-    if ($('#toronto').css('display') !== 'none')
-      $('#toronto').slideUp()
-    else {
-      $('#toronto').slideDown()
-      $('#vancouver').hide()
-      $('#victoria').hide()
-      $('#calgary').hide()
-      $('#montreal').hide()
-    }
-  })
-
-  $('.victoria').on('click', function () {
-    if ($('#victoria').css('display') !== 'none')
-      $('#victoria').slideUp()
-    else {
-      $('#victoria').slideDown()
-      $('#vancouver').hide()
-      $('#toronto').hide()
-      $('#calgary').hide()
-      $('#montreal').hide()
-    }
-  })
-
-  $('.calgary').on('click', function () {
-    if ($('#calgary').css('display') !== 'none')
-      $('#calgary').slideUp()
-    else {
-      $('#calgary').slideDown()
-      $('#vancouver').hide()
-      $('#toronto').hide()
-      $('#victoria').hide()
-      $('#montreal').hide()
-    }
-  })
-
-  $('.montreal').on('click', function () {
-    if ($('#montreal').css('display') !== 'none')
-      $('#montreal').slideUp()
-    else {
-      $('#montreal').slideDown()
-      $('#vancouver').hide()
-      $('#toronto').hide()
-      $('#victoria').hide()
-      $('#calgary').hide()
-    }
-  })
 }
