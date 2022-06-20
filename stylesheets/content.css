@@ -1,3 +1,15 @@
+.content-position {
+  margin-top: -3.10rem;
+}
+
+.clear {
+  margin-bottom: 10rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 #strategy-todo-content, #strategy-resource-content, 
 #docs-resume-tool-content, #docs-resume-tips-content, #docs-resume-resource-content,
 #docs-cyber-portfolio-content, #docs-data-portfolio-content, #docs-web-portfolio-content,
@@ -7,37 +19,6 @@
 #interview-prep-content, #interview-culture-content, #interview-test-content, #interview-followup-content
 {
   scroll-margin-top: 5rem;
-}
-
-.content-position {
-  margin-top: -3.10rem;
-}
-
-.clear {
-  margin-bottom: 10rem;
-}
-
-#vancouver, #toronto, #victoria, #calgary, #montreal{
-  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
-  background-color: #F5F5F5;
-}
-
-.networkingbuttons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.citybutton {
-  width: 8.75rem;
-  height: 3.75rem;
-  margin: 0.5rem;
-  text-transform: uppercase;
-}
-
-.pointer {
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {
