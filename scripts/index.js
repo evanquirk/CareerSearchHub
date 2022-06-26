@@ -7,6 +7,7 @@ function load() {
   $('.resume').hide()
   $('.boards').hide()
   $('.video').hide()
+  $('.techstuff').hide()
 
   // Return to Login Page
   $('.gohome').on('click', function () {
@@ -23,6 +24,7 @@ function load() {
     $('.boards').hide()
     $('.video').hide()
     $('.Category-card').slideDown()
+    $('.techstuff').hide()
   })
 
   // Get Started === Strategy
@@ -35,6 +37,7 @@ function load() {
     $('.boards').hide()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.techstuff').hide()
   })
 
   // Docs === Applications
@@ -47,6 +50,7 @@ function load() {
     $('.boards').hide()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.techstuff').hide()
   })
 
   $('.JobBoards').on('click', function () {
@@ -58,6 +62,7 @@ function load() {
     $('.application').hide()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.techstuff').hide()
   })
 
   $('.GitHub').on('click', function () {
@@ -69,6 +74,7 @@ function load() {
     $('.boards').hide()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.techstuff').hide()
   })
 
   $('.Interviews').on('click', function () {
@@ -80,6 +86,7 @@ function load() {
     $('.boards').hide()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.techstuff').hide()
   })
 
   $('.Networking').on('click', function () {
@@ -91,8 +98,10 @@ function load() {
     $('.boards').hide()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.techstuff').hide()
   })
 
+  // Workshops === Videos
   $('.Videos').on('click', function () {
     $('.application').hide()
     $('.github').hide()
@@ -101,6 +110,19 @@ function load() {
     $('.networking').hide()
     $('.boards').hide()
     $('.video').show()
+    $('.Category-card').hide()
+    $('.techstuff').hide()
+  })
+
+  $('.Tech').on('click', function () {
+    $('.application').hide()
+    $('.github').hide()
+    $('.interviewskills').hide()
+    $('.strategy').hide()
+    $('.networking').hide()
+    $('.boards').hide()
+    $('.techstuff').show()
+    $('.video').hide()
     $('.Category-card').hide()
   })
 }
