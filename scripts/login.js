@@ -2,7 +2,7 @@ $(document).ready(function () {
   let mainContent = $('main').html()
   let nav = $('header').html()
   let footer = $('footer').html()
-  $('body').css('background-image', 'url("../images/work-space.png")');
+  $('body').css('background-image', 'url("CareerSearchHub/images/work-space.png")');
   $('body').css('height', 'auto');
   $('header').empty();
   $('main').empty();
