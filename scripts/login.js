@@ -2,7 +2,6 @@ $(document).ready(function () {
   let mainContent = $('main').html()
   let nav = $('header').html()
   let footer = $('footer').html()
-  $('body').css('height', 'auto');
   $('header').empty();
   $('main').empty();
   $('footer').empty();
