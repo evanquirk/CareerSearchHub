@@ -1418,21 +1418,24 @@
               class="sticky-sidebar-long d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
               <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                 <li>
-                  <a href="#interview-test-content" class="nav-link px-0 align-middle">
-                    <i class="fa-solid fa-clipboard-check fa-xl"></i>
-                    <span class="ms-1 d-none d-sm-inline">Tech Prep</span></a>
+                  <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fa-solid fa-clipboard-question fa-xl"></i> <span class="ms-1 d-none d-sm-inline">Tech
+                      Prep</span></a>
+                  <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                    <li class="w-100">
+                      <a href="#tech-web-content" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Web
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tech-data-content" class="nav-link px-0"> <span class="d-none d-sm-inline"></span> Data
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tech-cyber-content" class="nav-link px-0"> <span class="d-none d-sm-inline"></span>
+                        Cyber </a>
+                    </li>
+                  </ul>
                 </li>
-                <!-- <li class="nav-item">
-                  <a href="#" class="nav-link align-middle px-0">
-                    <i class="fa-regular fa-circle-question fa-xl"></i>
-                    <span class="ms-1 d-none d-sm-inline">Thing One</span>
-                  </a>
-                </li> -->
-                <!-- <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fa-regular fa-circle-question fa-xl"></i>
-                    <span class="ms-1 d-none d-sm-inline">Thing Two</span> </a>
-                </li> -->
               </ul>
               <hr>
             </div>
@@ -1448,7 +1451,7 @@
               </div>
             </h2>
 
-            <div id="interview-test-content">
+            <div id="tech-web-content">
               <h4>
                 Tech Interview Prep
               </h4>
