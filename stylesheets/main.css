@@ -10,14 +10,14 @@ body {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   text-align: center;
   letter-spacing: 0.1rem;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   text-align: center;
   padding-top: 3.10rem;
   letter-spacing: 0.1rem;
@@ -25,14 +25,14 @@ h2 {
 
 h4 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-weight: 700 !important;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 h6 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-weight: 500 !important;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
