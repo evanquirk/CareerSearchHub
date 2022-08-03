@@ -27,6 +27,14 @@
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-height: 650px) {
+  .card-scroll {
+    height: 100vh;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .card-container {
     margin-bottom: 60rem;
