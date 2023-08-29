@@ -134,7 +134,7 @@ function load() {
     $('.Category-card').hide()
     $('.ai').hide()
   })
-  $('.ai').on('click', function () {
+  $('.UsingAI').on('click', function () {
     $('.application').hide()
     $('.github').hide()
     $('.interviewskills').hide()
