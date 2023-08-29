@@ -10,7 +10,6 @@ $(document).ready(function () {
     let password = $('#password').val()
     if (password === 'LHLCS') {
       setTimeout(() => {
-        console.log(password)
         $('body').css('background-image', 'none');
         $('#login-form').hide();
         $('main').html(mainContent);

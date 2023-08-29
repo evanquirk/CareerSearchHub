@@ -8,6 +8,7 @@ function load() {
   $('.boards').hide()
   $('.video').hide()
   $('.techstuff').hide()
+  $('.ai').hide()
 
   // Return to Login Page
   $('.gohome').on('click', function () {
@@ -25,6 +26,7 @@ function load() {
     $('.video').hide()
     $('.Category-card').slideDown()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   // Get Started === Strategy
@@ -38,6 +40,7 @@ function load() {
     $('.video').hide()
     $('.Category-card').hide()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   // Docs === Applications
@@ -51,6 +54,7 @@ function load() {
     $('.video').hide()
     $('.Category-card').hide()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   $('.JobBoards').on('click', function () {
@@ -63,6 +67,7 @@ function load() {
     $('.video').hide()
     $('.Category-card').hide()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   $('.GitHub').on('click', function () {
@@ -75,6 +80,7 @@ function load() {
     $('.video').hide()
     $('.Category-card').hide()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   $('.Interviews').on('click', function () {
@@ -99,6 +105,7 @@ function load() {
     $('.video').hide()
     $('.Category-card').hide()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   // Workshops === Videos
@@ -112,6 +119,7 @@ function load() {
     $('.video').show()
     $('.Category-card').hide()
     $('.techstuff').hide()
+    $('.ai').hide()
   })
 
   $('.Tech').on('click', function () {
@@ -124,5 +132,18 @@ function load() {
     $('.techstuff').show()
     $('.video').hide()
     $('.Category-card').hide()
+    $('.ai').hide()
+  })
+  $('.ai').on('click', function () {
+    $('.application').hide()
+    $('.github').hide()
+    $('.interviewskills').hide()
+    $('.strategy').hide()
+    $('.networking').hide()
+    $('.boards').hide()
+    $('.techstuff').hide()
+    $('.video').hide()
+    $('.Category-card').hide()
+    $('.ai').show()
   })
 }
